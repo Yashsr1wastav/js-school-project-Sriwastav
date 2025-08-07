@@ -1,22 +1,31 @@
-# Timeline App – Stage 1
+# Timeline App
 
-This is the initial skeleton of the Timeline App.
+A web-based timeline visualization project built as part of the JavaScript School Project.  
+This app will display events in a chronological, interactive timeline format using semantic HTML, CSS, and JavaScript.
 
-## 🧱 Features Implemented (Stage 1)
-- Static HTML structure with semantic tags.
-- Header with logo and theme toggle button.
-- Placeholder nav for filters.
-- Timeline section with one static event card.
-- Modal container for future use.
+## 🚧 Stage 1 – Static Skeleton (Task 1)
 
-## 📁 Repo Naming
-**Suggested**: `js-school-project-<YourSurnameName>`
+### ✅ Goals:
+- Set up the basic HTML structure for the timeline application.
+- Ensure semantic HTML usage with accessibility and future expansion in mind.
 
-## 🛠 Branches & Pull Requests
-- Branch: `feature/task-1`
-- PR Title: `Task #1 – Timeline App Skeleton`
+### 🏗️ Current Structure:
+- `<header>` with placeholder for logo and theme toggle.
+- `<nav>` for future filters or controls (currently empty).
+- `<main>` with a `<section id="timeline">` to hold all timeline events.
+- `<div id="modal">` for future event popups or detail views.
 
-## ✅ PR Template
-- **Goal / Scope**: Implement static HTML structure.
-- **Main changes**: Added index.html with semantic layout and basic event structure.
-- **How to test**: Open `index.html` in browser and verify structure matches screenshot.
+### 📁 Files:
+- `index.html` — contains the static skeleton layout.
+- `README.md` — project documentation.
+
+### 📌 Next Steps:
+- Add dynamic rendering of timeline events using JavaScript.
+- Implement filter controls in the `<nav>` area.
+- Style the application using CSS and support theme switching.
+
+---
+
+> Submitted as part of Task 1  
+> Branch: `feature/task-1`  
+> PR to `main`: `Task 1 – Static Timeline Skeleton`

@@ -1,45 +1,88 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Timeline App</title>
-  <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
 
   <header>
     <div class="logo">📅 TimelineApp</div>
-    <button id="theme-toggle">Toggle Theme</button>
+    <button id="themeToggle">Toggle Theme</button>
   </header>
 
   <nav>
-    <!-- Filters or category buttons go here -->
+    <div class="filters-container">
+      <div class="filter-placeholder">Category Filter</div>
+      <div class="filter-placeholder">Date Range</div>
+      <div class="filter-placeholder">Search</div>
+    </div>
   </nav>
 
   <main>
     <section id="timeline">
-      <!-- Static sample card -->
-      <article class="event-card">
-        <span class="event-year">1977</span>
-        <figure>
-          <img src="https://upload.wikimedia.org/wikipedia/commons/5/5f/Apple_II_img_1305.jpg" alt="First Personal Computer" />
-          <figcaption>
-            <h2>Introduction of the First Personal Computer</h2>
-            <p>
-              The first personal computer, introduced in 1977, revolutionized the way people interacted with tech. 
-              Those early systems were more affordable, paving the way for the digital age and transforming work.
-            </p>
-            <a href="#" class="btn">Learn More</a>
-          </figcaption>
-        </figure>
-      </article>
+      <h1>Computing History Timeline</h1>
+
+      <div class="timeline-container">
+        <article class="event-card">
+          <header class="event-header">
+            <span class="event-year">1977</span>
+          </header>
+          <figure class="event-figure">
+            <img src="assets/firstimage.png" alt="First Personal Computer" style="width: 300px; height: 200px; object-fit: cover;" />
+            <figcaption class="event-caption">
+              <h2>Introduction of the First Personal Computer</h2>
+              <p>The first personal computer, introduced in 1977, revolutionized how people interacted with tech.</p>
+              <a href="#" class="learn-more-btn">Learn More</a>
+            </figcaption>
+          </figure>
+        </article>
+
+        <article class="event-card">
+          <header class="event-header">
+            <span class="event-year">1981</span>
+          </header>
+          <figure class="event-figure">
+            <img src="assets/ibm.jpg" alt="IBM PC" />
+            <figcaption class="event-caption">
+              <h2>IBM PC Launch</h2>
+              <p>IBM introduced the IBM PC, establishing the standard architecture for decades to come.</p>
+              <a href="#" class="learn-more-btn">Learn More</a>
+            </figcaption>
+          </figure>
+        </article>
+
+        <article class="event-card">
+          <header class="event-header">
+            <span class="event-year">1984</span>
+          </header>
+          <figure class="event-figure">
+            <img src="assets/apple.jpg" alt="Apple Macintosh" />
+            <figcaption class="event-caption">
+              <h2>Apple Macintosh Revolution</h2>
+              <p>Apple launched the Macintosh, the first mass-market GUI personal computer.</p>
+              <a href="#" class="learn-more-btn">Learn More</a>
+            </figcaption>
+          </figure>
+        </article>
+      </div>
     </section>
+
+    <article class="info-section">
+      <header>
+        <h2>About This Timeline</h2>
+      </header>
+      <p>Explore the key milestones in personal computing that shaped our digital world.</p>
+    </article>
   </main>
 
-  <div id="modal">
-    <!-- Popups will be injected here -->
-  </div>
+  <div id="modal"></div>
+
+  <footer>
+    <p>&copy; 2024 Timeline App - JS School Project</p>
+  </footer>
+
 
 </body>
 </html>

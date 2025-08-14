@@ -1,0 +1,28 @@
+{
+  "events": [
+    {
+      "id": 1,
+      "year": 1971,
+      "title": "First Microprocessor - Intel 4004",
+      "description": "Intel released the 4004, the world's first commercially available microprocessor. This 4-bit processor contained 2,300 transistors and could perform 60,000 operations per second, laying the foundation for modern computing.",
+      "imageURL": "assets/apple.jpg",
+      "category": "Hardware"
+    },
+    {
+      "id": 2,
+      "year": 1977,
+      "title": "Introduction of the First Personal Computer",
+      "description": "The Apple II, Commodore PET, and TRS-80 were released, marking the beginning of the personal computer revolution. These machines brought computing power to individual users for the first time.",
+      "imageURL": "assets/firstimage.png",
+      "category": "Hardware"
+    },
+    {
+      "id": 3,
+      "year": 1981,
+      "title": "IBM PC Launch",
+      "description": "IBM introduced the IBM PC, establishing the standard architecture for decades to come. The open architecture allowed third-party manufacturers to create compatible hardware and software.",
+      "imageURL": "assets/ibm.jpg",
+      "category": "Hardware"
+    }
+  ]
+}

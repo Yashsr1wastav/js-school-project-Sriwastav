@@ -1,54 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Interactive Computing History Timeline</title>
-  <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-  <header>
-    <div class="logo">📅 TimelineApp</div>
-    <button id="themeToggle" aria-label="Toggle theme">🌙 Dark Theme</button>
-  </header>
-
-  <nav>
-    <div class="filters-container">
-      <div class="filter-placeholder">🏷️ Category Filter</div>
-      <div class="filter-placeholder">📅 Date Range</div>
-      <div class="filter-placeholder">🔍 Search</div>
-    </div>
-  </nav>
-
-  <main>
-    <section id="timeline">
-      <h1>Computing History Timeline</h1>
-      <div class="loading-message">
-        <p>Loading timeline events...</p>
-      </div>
-      <div class="timeline-container">
-        <!-- Events will be dynamically loaded here -->
-      </div>
-    </section>
-
-    <article class="info-section">
-      <h2>About This Timeline</h2>
-      <p>Explore the key milestones in personal computing that shaped our digital world. 
-         Click on "Learn More" buttons to discover detailed information about each breakthrough moment.</p>
-    </article>
-  </main>
-
-  <div id="modal" role="dialog" aria-modal="true" aria-labelledby="modal-title">
-    <!-- Modal content will be dynamically inserted here -->
-  </div>
-
-  <footer>
-    <p>&copy; 2024 Interactive Timeline App - Computing History</p>
-  </footer>
-
-  <!-- Load JavaScript at the end of body for better performance -->
-  <script>
-    // Timeline App JavaScript
+// Timeline App JavaScript
 class TimelineApp {
     constructor() {
         this.events = [];
@@ -268,6 +218,3 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }, 100);
 });
-  </script>
-</body>
-</html>
